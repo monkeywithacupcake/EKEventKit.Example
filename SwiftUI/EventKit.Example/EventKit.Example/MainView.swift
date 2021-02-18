@@ -37,12 +37,6 @@ struct MainView: View {
               
             }
             .navigationBarTitle("EventKit Reminder Example")
-            .navigationBarItems(trailing: Button(action: {
-
-            }, label: {
-                //Image(systemName: "plus").frame(width: 44, height: 44)
-                Text("Add")
-            }))
         }
     
 }
