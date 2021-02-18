@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8A9310825DCCB87005B86D2 /* RemindersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A9310725DCCB87005B86D2 /* RemindersRepository.swift */; };
+		C8A9310B25DDE6E7005B86D2 /* ReminderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A9310A25DDE6E7005B86D2 /* ReminderRow.swift */; };
+		C8A9310E25DDEA67005B86D2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A9310D25DDEA67005B86D2 /* MainView.swift */; };
 		DC572BC424D9AEED00304B83 /* EventEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC572BC324D9AEED00304B83 /* EventEditView.swift */; };
 		DC572BC624D9B4F500304B83 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC572BC524D9B4F500304B83 /* Notifications.swift */; };
 		DC572BC824D9B6DF00304B83 /* EKCalendar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC572BC724D9B6DF00304B83 /* EKCalendar+Extension.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8A9310725DCCB87005B86D2 /* RemindersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersRepository.swift; sourceTree = "<group>"; };
+		C8A9310A25DDE6E7005B86D2 /* ReminderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRow.swift; sourceTree = "<group>"; };
+		C8A9310D25DDEA67005B86D2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DC572BC324D9AEED00304B83 /* EventEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditView.swift; sourceTree = "<group>"; };
 		DC572BC524D9B4F500304B83 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		DC572BC724D9B6DF00304B83 /* EKCalendar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKCalendar+Extension.swift"; sourceTree = "<group>"; };
@@ -92,8 +98,10 @@
 				DCB88F7224D5831400400853 /* Views */,
 				DCB88F5A24D47D7500400853 /* AppDelegate.swift */,
 				DCB88F5C24D47D7500400853 /* SceneDelegate.swift */,
+				C8A9310D25DDEA67005B86D2 /* MainView.swift */,
 				DCB88F5E24D47D7500400853 /* ContentView.swift */,
 				DCB88F6E24D47ECE00400853 /* EventsRepository.swift */,
+				C8A9310725DCCB87005B86D2 /* RemindersRepository.swift */,
 				DCB88F6024D47D7700400853 /* Assets.xcassets */,
 				DCB88F6524D47D7700400853 /* LaunchScreen.storyboard */,
 				DCB88F6824D47D7700400853 /* Info.plist */,
@@ -117,6 +125,7 @@
 				DCB88F7324D5832500400853 /* EventRow.swift */,
 				DCB88F7A24D586F500400853 /* SelectedCalendarsList.swift */,
 				DC572BC324D9AEED00304B83 /* EventEditView.swift */,
+				C8A9310A25DDE6E7005B86D2 /* ReminderRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCB88F7124D4813000400853 /* CalendarChooser.swift in Sources */,
+				C8A9310825DCCB87005B86D2 /* RemindersRepository.swift in Sources */,
 				DCB88F7424D5832500400853 /* EventRow.swift in Sources */,
 				DC572BC624D9B4F500304B83 /* Notifications.swift in Sources */,
 				DCB88F5B24D47D7500400853 /* AppDelegate.swift in Sources */,
@@ -212,6 +222,8 @@
 				DC572BCC24D9B83300304B83 /* SecondaryCaptionTextStyle.swift in Sources */,
 				DCB88F5D24D47D7500400853 /* SceneDelegate.swift in Sources */,
 				DC572BCA24D9B72900304B83 /* PrimaryButtonStyle.swift in Sources */,
+				C8A9310B25DDE6E7005B86D2 /* ReminderRow.swift in Sources */,
+				C8A9310E25DDEA67005B86D2 /* MainView.swift in Sources */,
 				DCB88F6F24D47ECE00400853 /* EventsRepository.swift in Sources */,
 				DCB88F5F24D47D7500400853 /* ContentView.swift in Sources */,
 				DCB88F7B24D586F500400853 /* SelectedCalendarsList.swift in Sources */,

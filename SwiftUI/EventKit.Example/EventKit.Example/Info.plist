@@ -24,6 +24,8 @@
 	<string>To access your calendars.</string>
 	<key>NSContactsUsageDescription</key>
 	<string>To access shared calendars and invites.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>To show your reminders</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
